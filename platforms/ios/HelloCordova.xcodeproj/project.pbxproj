@@ -13,6 +13,21 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		ABD169A1269047728837A177 /* CTPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F131590E8A6E446FAFDE6B75 /* CTPicker.m */; };
+		B96BB5A5DC7C4DFF8614F586 /* QBAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 550EE14242494B10A64FF08A /* QBAlbumCell.m */; };
+		62390A96E2E3419DB7BF0F6E /* QBAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 214F4CA54E3545BDB1CC01F5 /* QBAssetCell.m */; };
+		6D8B66C698BC40BB9CEE5F6E /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2285B55FC34AC9A7545F92 /* QBCheckmarkView.m */; };
+		653CEB0ABB9748F4A9BB7BE4 /* QBVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5850A30E144443DC8D619ACC /* QBVideoIconView.m */; };
+		B215F384D5F1413187DE8FC5 /* QBSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 400193198FF74D6BB7833996 /* QBSlomoIconView.m */; };
+		4D68CC5F896746B9B8ADB846 /* QBVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83372F95154CC38B7FA9C5 /* QBVideoIndicatorView.m */; };
+		D5A81A08C9C14EA089A2A178 /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7317AB3DB14827AD7C9094 /* QBImagePickerController.m */; };
+		D6EAAC53BA4D48A68D6535DD /* QBAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8625699D417498C8AD558D4 /* QBAlbumsViewController.m */; };
+		A4EDE69A44E34E02AF46365D /* QBAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BF9B3C0C246C9856A0D80 /* QBAssetsViewController.m */; };
+		56B673E7FC104214A367D10A /* QBImagePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEAFF919CED24BFFA1E98B28 /* QBImagePicker.strings */; };
+		B208BBD5C81E4A929542911E /* QBImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019469AA0F544F269F6028B6 /* QBImagePicker.storyboard */; };
+		1537BB3D15E74BAB80046A07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6241E30CF8F2497CB3903D49 /* QuartzCore.framework */; };
+		D11B8A8322994F88BC7EA846 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D170D713655446CA5751CD6 /* Photos.framework */; };
+		34E8BA7AB07E478582497691 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F122E570CDCD4FA0906327C7 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +75,31 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HelloCordova/config.xml"; sourceTree = "<group>"; };
+		F131590E8A6E446FAFDE6B75 /* CTPicker.m */ = {isa = PBXFileReference; name = "CTPicker.m"; path = "cordova-plugin-imagepicker/CTPicker.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		550EE14242494B10A64FF08A /* QBAlbumCell.m */ = {isa = PBXFileReference; name = "QBAlbumCell.m"; path = "cordova-plugin-imagepicker/QBAlbumCell.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		214F4CA54E3545BDB1CC01F5 /* QBAssetCell.m */ = {isa = PBXFileReference; name = "QBAssetCell.m"; path = "cordova-plugin-imagepicker/QBAssetCell.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FF2285B55FC34AC9A7545F92 /* QBCheckmarkView.m */ = {isa = PBXFileReference; name = "QBCheckmarkView.m"; path = "cordova-plugin-imagepicker/QBCheckmarkView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5850A30E144443DC8D619ACC /* QBVideoIconView.m */ = {isa = PBXFileReference; name = "QBVideoIconView.m"; path = "cordova-plugin-imagepicker/QBVideoIconView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		400193198FF74D6BB7833996 /* QBSlomoIconView.m */ = {isa = PBXFileReference; name = "QBSlomoIconView.m"; path = "cordova-plugin-imagepicker/QBSlomoIconView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		EF83372F95154CC38B7FA9C5 /* QBVideoIndicatorView.m */ = {isa = PBXFileReference; name = "QBVideoIndicatorView.m"; path = "cordova-plugin-imagepicker/QBVideoIndicatorView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		4B7317AB3DB14827AD7C9094 /* QBImagePickerController.m */ = {isa = PBXFileReference; name = "QBImagePickerController.m"; path = "cordova-plugin-imagepicker/QBImagePickerController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A8625699D417498C8AD558D4 /* QBAlbumsViewController.m */ = {isa = PBXFileReference; name = "QBAlbumsViewController.m"; path = "cordova-plugin-imagepicker/QBAlbumsViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		360BF9B3C0C246C9856A0D80 /* QBAssetsViewController.m */ = {isa = PBXFileReference; name = "QBAssetsViewController.m"; path = "cordova-plugin-imagepicker/QBAssetsViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		60C9CDF3874447AF99F04AA3 /* CTPicker.h */ = {isa = PBXFileReference; name = "CTPicker.h"; path = "cordova-plugin-imagepicker/CTPicker.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D7FC5E7D7ECA4FC7BBF60C89 /* QBAlbumCell.h */ = {isa = PBXFileReference; name = "QBAlbumCell.h"; path = "cordova-plugin-imagepicker/QBAlbumCell.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		23C89BC647134DAE80AF0158 /* QBAssetCell.h */ = {isa = PBXFileReference; name = "QBAssetCell.h"; path = "cordova-plugin-imagepicker/QBAssetCell.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7BA739636B88409A86249CD8 /* QBCheckmarkView.h */ = {isa = PBXFileReference; name = "QBCheckmarkView.h"; path = "cordova-plugin-imagepicker/QBCheckmarkView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0AFD79DE188C48FAB046E884 /* QBVideoIconView.h */ = {isa = PBXFileReference; name = "QBVideoIconView.h"; path = "cordova-plugin-imagepicker/QBVideoIconView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		BE99ED2ED0C847AE8B456E66 /* QBSlomoIconView.h */ = {isa = PBXFileReference; name = "QBSlomoIconView.h"; path = "cordova-plugin-imagepicker/QBSlomoIconView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C87843007BF74E4494219713 /* QBVideoIndicatorView.h */ = {isa = PBXFileReference; name = "QBVideoIndicatorView.h"; path = "cordova-plugin-imagepicker/QBVideoIndicatorView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		BA67412A377E4DB6BB800C41 /* QBImagePickerController.h */ = {isa = PBXFileReference; name = "QBImagePickerController.h"; path = "cordova-plugin-imagepicker/QBImagePickerController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1EBDBE42C5C24C799ED746CF /* QBAlbumsViewController.h */ = {isa = PBXFileReference; name = "QBAlbumsViewController.h"; path = "cordova-plugin-imagepicker/QBAlbumsViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DCCCC8DEC9F24B2DBB0FB211 /* QBAssetsViewController.h */ = {isa = PBXFileReference; name = "QBAssetsViewController.h"; path = "cordova-plugin-imagepicker/QBAssetsViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AEAFF919CED24BFFA1E98B28 /* QBImagePicker.strings */ = {isa = PBXFileReference; name = "QBImagePicker.strings"; path = "QBImagePicker.strings"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.strings; explicitFileType = undefined; includeInIndex = 0; };
+		019469AA0F544F269F6028B6 /* QBImagePicker.storyboard */ = {isa = PBXFileReference; name = "QBImagePicker.storyboard"; path = "QBImagePicker.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6241E30CF8F2497CB3903D49 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1D170D713655446CA5751CD6 /* Photos.framework */ = {isa = PBXFileReference; name = "Photos.framework"; path = "System/Library/Frameworks/Photos.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F122E570CDCD4FA0906327C7 /* ImageIO.framework */ = {isa = PBXFileReference; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +108,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				1537BB3D15E74BAB80046A07 /* QuartzCore.framework in Frameworks */,
+				D11B8A8322994F88BC7EA846 /* Photos.framework in Frameworks */,
+				34E8BA7AB07E478582497691 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +173,8 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* HelloCordova-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				AEAFF919CED24BFFA1E98B28 /* QBImagePicker.strings */,
+				019469AA0F544F269F6028B6 /* QBImagePicker.storyboard */,
 			);
 			name = Resources;
 			path = "HelloCordova/Resources";
@@ -138,6 +183,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6241E30CF8F2497CB3903D49 /* QuartzCore.framework */,
+				1D170D713655446CA5751CD6 /* Photos.framework */,
+				F122E570CDCD4FA0906327C7 /* ImageIO.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +212,26 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				F131590E8A6E446FAFDE6B75 /* CTPicker.m */,
+				550EE14242494B10A64FF08A /* QBAlbumCell.m */,
+				214F4CA54E3545BDB1CC01F5 /* QBAssetCell.m */,
+				FF2285B55FC34AC9A7545F92 /* QBCheckmarkView.m */,
+				5850A30E144443DC8D619ACC /* QBVideoIconView.m */,
+				400193198FF74D6BB7833996 /* QBSlomoIconView.m */,
+				EF83372F95154CC38B7FA9C5 /* QBVideoIndicatorView.m */,
+				4B7317AB3DB14827AD7C9094 /* QBImagePickerController.m */,
+				A8625699D417498C8AD558D4 /* QBAlbumsViewController.m */,
+				360BF9B3C0C246C9856A0D80 /* QBAssetsViewController.m */,
+				60C9CDF3874447AF99F04AA3 /* CTPicker.h */,
+				D7FC5E7D7ECA4FC7BBF60C89 /* QBAlbumCell.h */,
+				23C89BC647134DAE80AF0158 /* QBAssetCell.h */,
+				7BA739636B88409A86249CD8 /* QBCheckmarkView.h */,
+				0AFD79DE188C48FAB046E884 /* QBVideoIconView.h */,
+				BE99ED2ED0C847AE8B456E66 /* QBSlomoIconView.h */,
+				C87843007BF74E4494219713 /* QBVideoIndicatorView.h */,
+				BA67412A377E4DB6BB800C41 /* QBImagePickerController.h */,
+				1EBDBE42C5C24C799ED746CF /* QBAlbumsViewController.h */,
+				DCCCC8DEC9F24B2DBB0FB211 /* QBAssetsViewController.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -257,6 +325,8 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				56B673E7FC104214A367D10A /* QBImagePicker.strings in Resources */,
+				B208BBD5C81E4A929542911E /* QBImagePicker.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +358,16 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				ABD169A1269047728837A177 /* CTPicker.m in Sources */,
+				B96BB5A5DC7C4DFF8614F586 /* QBAlbumCell.m in Sources */,
+				62390A96E2E3419DB7BF0F6E /* QBAssetCell.m in Sources */,
+				6D8B66C698BC40BB9CEE5F6E /* QBCheckmarkView.m in Sources */,
+				653CEB0ABB9748F4A9BB7BE4 /* QBVideoIconView.m in Sources */,
+				B215F384D5F1413187DE8FC5 /* QBSlomoIconView.m in Sources */,
+				4D68CC5F896746B9B8ADB846 /* QBVideoIndicatorView.m in Sources */,
+				D5A81A08C9C14EA089A2A178 /* QBImagePickerController.m in Sources */,
+				D6EAAC53BA4D48A68D6535DD /* QBAlbumsViewController.m in Sources */,
+				A4EDE69A44E34E02AF46365D /* QBAssetsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
